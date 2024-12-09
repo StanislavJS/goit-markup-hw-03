@@ -53,8 +53,6 @@ header .logo {
   border-bottom: 1px solid #e7e9fc;
   margin-left: 156px;
   margin-right: 156px;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
 }
 
 .header-container-container{
@@ -101,6 +99,7 @@ header .logo {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  
 
   }
 
