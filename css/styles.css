@@ -4,28 +4,23 @@ body {
   background-color: #fff;
 }
 
-
-<!-- h1,
+h1,
 h2,
 h3,
 h4,
 h5,
 h6,
 p,
-ul { 
+ul {
+  margin: 0px;
+  padding: 0;
+}
 
   img{
     display: block;
     max-width: 100%;
     height: auto;
   } 
-    
-  
-  
-  margin: 0px;
-  padding: 0;
-}-->
-
 
 ul,
 ol {
@@ -46,29 +41,67 @@ text-transform: uppercase;
 color: #4d5ae5;
 }
 
+header .logo {
+  margin-right: 76px;
+}
+
 .header-logo .logo-part{
   color: #2e2f42;
 }
+  
+.page-header{
+  border-bottom: 1px solid #e7e9fc;
+  margin-left: 156px;
+  margin-right: 156px;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+.header-container-container{
+  display: flex;
+}
+ 
+
+.header-nav{
+  display: flex;
+  align-items: center;
+}
+
+.logo-part{
+  text-decoration: none;
+}
 
 .nav-link{
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
   }
 
+
+.nav-list{
+  display: flex;
+  gap: 40px;
+}
+ 
+  
   .contacts{
     font-style: normal;
     height: 72px;
-    
   }
+
+  .contacts-list{
+    display: flex;
+    gap: 40px;
+   } 
 
   .contacts-link{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
   }
 
   .nav-link:hover,
@@ -79,19 +112,46 @@ color: #4d5ae5;
   }
 
  .hero-section{
-  width: 1440px;
   height: 600px;
+  padding: 188px 0;
+  align-content: center;
   background-color:#2e2f42;
  }
 
+ .contacts{
+  margin-left: auto;
+  font-style: normal;
+ }
+
+ 
+
+.contacts-item{
+  display: inline-block;
+  padding: 24px 0;
+}
+
+.contacts-link{
+  display: inline block;
+  padding: 24px 0;
+  line-height: 1.5;
+}
+ 
+
+ .container{
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+ }
+
  .hero-title{
-  font-weight: 700;
+  text-align: center;
+  margin: 0 auto 48px;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
-  margin-bottom: 48px;
+  
  }
 
  .hero-btn-button{
@@ -278,3 +338,9 @@ display: flex;
  font-style: normal;
  line-height: 1.5;
 }
+
+footer .logo{
+  display: inline-block;
+  margin-bottom: 16px;
+}
+ 
