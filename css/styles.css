@@ -345,7 +345,7 @@ header .logo {
 .logo link {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -353,27 +353,35 @@ header .logo {
 .logo-accent-text {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
 }
 
 .footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 312px;
   background-color: #2e2f42;
 }
 
 .footer-text {
-  font-weight: 400;
+  margin-left: 156px;
+  margin-right: 156px;
+  max-width: 264px;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  font-style: normal;
-  line-height: 1.5;
 }
 
 footer .logo {
+  padding-top: 100px;
+  margin-left: 156px;
+  margin-right: 156px;
   display: inline-block;
   margin-bottom: 16px;
 }
