@@ -16,6 +16,25 @@ ul {
   padding: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -128,12 +147,6 @@ header .logo {
   background-color: #2e2f42;
 }
 
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .hero-title {
   text-align: center;
   margin: 0 auto 48px;
@@ -162,6 +175,8 @@ header .logo {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   white-space: nowrap;
   margin-bottom: 48px;
+  min-width: 169px;
+  border: none;
 }
 
 .hero-btn-button:hover {
@@ -197,6 +212,7 @@ header .logo {
 }
 
 .item-list-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -231,6 +247,7 @@ header .logo {
 }
 
 .team-list-item {
+  margin-bottom: 72px;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
 }
@@ -255,6 +272,12 @@ header .logo {
 }
 .team-list-item {
   background-color: #ffffff;
+}
+.team-description-title {
+  padding: 32px 0;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .item-title {
@@ -360,6 +383,7 @@ header .logo {
 }
 
 .footer {
+  padding: 100px 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -367,9 +391,14 @@ header .logo {
   background-color: #2e2f42;
 }
 
+.logo link {
+  display: inline-block;
+}
+
 .footer-text {
   margin-left: 156px;
   margin-right: 156px;
+  margin-bottom: 16px;
   max-width: 264px;
   font-style: normal;
   font-size: 16px;
@@ -382,6 +411,4 @@ footer .logo {
   padding-top: 100px;
   margin-left: 156px;
   margin-right: 156px;
-  display: inline-block;
-  margin-bottom: 16px;
 }
