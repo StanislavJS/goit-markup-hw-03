@@ -34,7 +34,6 @@ ul {
 }
 
 .container {
-  display: flex;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -71,6 +70,10 @@ header .logo {
 
 .header-logo .logo-part {
   color: #2e2f42;
+}
+
+.header-container-container {
+  display: flex;
 }
 
 .header-nav {
@@ -285,7 +288,7 @@ header .logo {
 }
 
 .section-list {
-  padding: 120px 0 120px 0;
+  padding: 120px 0;
   display: flex;
 }
 .section-title {
@@ -323,11 +326,6 @@ header .logo {
 
 .section-list {
   padding: 120px 24px;
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 24px;
 }
 
 .list-images {
