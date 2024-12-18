@@ -74,6 +74,8 @@ header .logo {
 
 .header-container-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav {
@@ -85,12 +87,12 @@ header .logo {
   text-decoration: none;
 }
 
-.nav-link {
-  display: block;
-  padding: 24px 0;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #2e2f42;
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link:hover,
@@ -325,7 +327,7 @@ header .logo {
 }
 
 .section-list {
-  padding: 120px 24px;
+  padding: 120px 0 120px 0;
 }
 
 .list-images {
