@@ -37,10 +37,6 @@ ul {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 img {
@@ -106,9 +102,8 @@ header .logo {
   color: #404bbf;
 }
 
-.nav-list {
-  display: flex;
-  gap: 40px;
+.nav-link {
+  padding: 24px 0;
 }
 
 .contacts-list {
